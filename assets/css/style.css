@@ -578,11 +578,13 @@ p {
 }
 
 #about .div-img-bg {
+    border-radius: 20px;
     padding-bottom: 30px;
     border: 20px solid #1e1e1f;
 }
 
 #about .div-img-bg .about-img img {
+    border-radius: 20px;
     width: 100%;
     box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
     margin-top: -60px;
@@ -593,15 +595,64 @@ p {
 }
 
 #about .about-descr .p-heading {
+    color: #333;
     font-family: "Playfair Display", serif;
-    font-size: 28px;
+    font-size: 38px;
     text-align: left;
 }
 
 #about .about-descr .separator {
+    color: #333;
+    font-size: 18px;
     max-width: 80%;
     margin-bottom: 0;
     text-align: left;
+}
+
+--------------------------------------------------------------*/ #services {
+    background: #f7f7f7;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.services-block span {
+    margin: 10px 0;
+    position: relative;
+    font-size: 13px;
+    color: #292929;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+}
+
+.services-block .separator {
+    margin: 0;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.services-block i {
+    font-size: 44px;
+    color: #413f3c;
+    line-height: 44px;
+}
+
+.services-slider .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+}
+
+.services-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #31302f;
+}
+
+.services-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #363532;
 }
 
 
