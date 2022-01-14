@@ -1124,7 +1124,7 @@ blockquote {
 --------------------------------------------------------------*/
 
 #footer {
-    background: #f7f7f7;
+    background-color: #333;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -1146,8 +1146,8 @@ blockquote {
 }
 
 #footer .socials-media ul li a {
-    font-size: 24px;
-    color: #999;
+    font-size: 27px;
+    color: rgb(127, 133, 133);
     letter-spacing: 0.1em;
     font-weight: 500;
     background: transparent;
@@ -1156,11 +1156,12 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-    color: #2b2928;
+    color: #ffffff;
     transition: all 0.5s ease-in-out 0s;
 }
 
 #footer p {
+    color: rgba(255, 255, 255, 0.616);
     font-size: 15px;
     letter-spacing: 0.1em;
     font-weight: 500;
@@ -1169,6 +1170,7 @@ blockquote {
 }
 
 .credits {
+    color: rgba(255, 255, 255, 0.616);
     font-size: 17px;
 }
 
