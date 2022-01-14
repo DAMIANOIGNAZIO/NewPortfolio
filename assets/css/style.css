@@ -279,7 +279,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #0f1ef8;
+    color: #151516;
 }
 
 .navbar .dropdown ul {
@@ -579,7 +579,7 @@ p {
 
 #about .div-img-bg {
     padding-bottom: 30px;
-    border: 20px solid #0f1ef8;
+    border: 20px solid #1e1e1f;
 }
 
 #about .div-img-bg .about-img img {
@@ -1105,7 +1105,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-    color: #b8a07e;
+    color: #2b2928;
     transition: all 0.5s ease-in-out 0s;
 }
 
